@@ -1,0 +1,20 @@
+{
+  "explain1": {
+    "prompt": "explain code",
+    "context": {
+      "selection": true,
+      "currentFile": true,
+      "currentDir": true
+    },
+    "mode": "ask"
+  },
+  "readme": {
+    "prompt": "Write a detailed README2.md file to document the code in the same directory as my current selection. Summarize what the code in this directory is supposed to achieve. Explain the files, functions, classes, and key features. Use markdown format for headers, code blocks, lists, etc., so that it is organized and readable. Use beginner friendly explanations for a developer unfamiliar with the code. Be sure to include: Overview of the directorys purpose, function explanations, relevant diagrams or visual elements. Write the README2 content in a clear and concise manner. Do not make assumptions or invent additional details.",
+    "context": {
+      "selection": true,
+      "currentFile": true,
+      "currentDir": true
+    },
+    "mode": "ask"
+  }
+}
